@@ -1,9 +1,7 @@
-import pytest
-
+from data import kit_body_1, kit_body_2, kit_body_3, kit_body_4, kit_body_5, kit_body_6, kit_body_7, kit_body_8, \
+    kit_body_9
 from sender_stand_request import new_kit
-from data import kit_body_1, kit_body_2, kit_body_3, kit_body_4, kit_body_5, kit_body_6, kit_body_7, kit_body_8, kit_body_9
-from configuration import URL_SERVICE, KITS_PATH
-import requests
+
 
 def test_kit_body_1():
     auth_token = "your_auth_token"
